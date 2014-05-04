@@ -2,7 +2,7 @@ Dwarf Fortress - Fortress In The Deep
 =====================================
 
 
-1. How deep are walking?
+1. How deep are talking?
 ------------------------
 
 Very! Did you never consider to build a fortress deep down below? Just above
@@ -116,7 +116,7 @@ but air or water below you.
 ![Hitting The Caverns Dead On](Hitting The Caverns Dead On.png)
 
 Don't worry, just build down stairs on the last level above the air,
-they include a floor that will seal of the breach. Then remove
+they include a floor that will seal off the breach. Then remove
 the designation of the rest of the staircase and check where you can go down
 instead.
 
@@ -154,13 +154,97 @@ the caverns.
 7. Missing Caverns
 ------------------
 
-If you feel like you've missed a layer, do some digging to find it. There's
+If you feel like you've missed a cavern, do some digging to find it. There's
 no better way to find a cavern than to dig around and see if you hit it.
 Or you can wait, you'll mist likely find it later during your fortress
 building anyway.
 
 
-8. Planning You Fortress
-------------------------
+8. Planning Your Fortress
+-------------------------
+
+Now you can plan your fortress by taking the caverns and the magma sea into
+account. Build a trade depot at the surface and don't forget to fortify
+the entrance. Make your expedition leader also your bookkeeper, broker and
+gem cutter. When digging out your fortress you'll discover many gems, make
+sure to cut them early on and as fast as possible so that you have something
+to trade with the first caravan. When the first caravan arrives, you'll most
+likely already be somewhere at 150 - 100 alcohol, so you need these few barrels
+they have.
 
 
+9. Helpful Stuff
+----------------
+
+### Migrate all your stuff down as fast as possible
+
+Make sure to dig out some storage areas first and a meeting hall, then let
+your dwarfs bring everything into the depths of the earth. That way
+they won't need to run up and down the staircase until they really need to.
+
+This is may main level:
+
+![Main Level](Main Level.png)
+
+To the left you see the dining hall with food storage and workshops.
+At the top are the bookkeeper and manager office together with the main lever
+room. The upper layer of storages are gems, weapon, armor and ammo. The rest
+are workshops and the main storage area.
+
+And, please excuse my bragging, a damn lot of adamantine. I found a solid spire
+that is 80 z-levels high.
+
+My dining hall also contains three wells which are fed from a reservoir.
+
+
+### Underground farming
+
+You need to set up farming very fast. An easy way to irrigate many plots at once
+is to build the farms at the same level as the water of the cavern.
+
+![Farming Deep Underground](Farming Deep Underground.png)
+
+I use bridges instead of floodgates and tunnel into the water by carving
+fortifications into the walls.
+
+The water can be drained into a big room, where it will irrigate the large area,
+making it usable for keeping animals down there. You can also farm plants and
+trees.
+
+![Animal Keeping](Animal Keeping.png)
+
+
+### Exploring the caverns, the cowardly way
+
+If your militia is not ready for some real adventuring, there is an easy,
+but a little bit undwarven way of exploring the caverns: Dig into the spires
+of the caverns and carve fortifications into the. That way your dwarfs can shoot
+out, but nobody can shoot at them.
+
+![Fortified Caves](Fortified Caves.png)
+
+These areas to the left can easily and safely be reached via tunnels. All
+the miasma is from some blowgunners which tried to settle there. That way you
+can also deal with forgotten beasts rather easily (unless they fly up to
+the fortifications and breath at your dwarfs).
+
+![Fortified Caves Service Tunnels](Fortified Caves Service Tunnels.png)
+
+
+### Smithing made easy
+
+Knowing where the magma sea is allows you to build your furnaces and smelters
+directly above it.
+
+![Smithing At The Magma Sea](Smithing At The Magma Sea.png)
+
+
+10. Have Fun
+------------
+
+I hope I have given you a good start into a fortress cradled deep in the earth.
+Now start to build, there are many things that need to be build down there,
+dormitories, rooms, offices, stockpiles, training rooms, barracks...and don't
+forget about the most important thing ever: The Necropolis.
+
+Good digging!
