@@ -2,8 +2,8 @@ Dwarf Fortress - Fortress In The Deep
 =====================================
 
 
-1. How deep are talking?
-------------------------
+1. How deep are we talking?
+---------------------------
 
 Very! Did you never consider to build a fortress deep down below? Just above
 the great magma sea and cradled between the caverns? That's how deep we're
