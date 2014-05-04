@@ -106,7 +106,7 @@ to happen. Wall off the staircase and let your dwarfs keep doing down.
 ![Walled Off Staircase](Walled Off Staircase.png)
 
 Depending on how you've hit the caverns, it might end up to be a lot of work,
-but do it, otherwise there's bee things in your central staircase. You don't
+but do it, otherwise there will be things in your central staircase. You don't
 want that, trust me. Build stairs where you need to and don't forget that
 things can go diagonal and can also fly! Wall off everything.
 
