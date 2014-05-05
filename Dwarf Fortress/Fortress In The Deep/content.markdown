@@ -226,7 +226,7 @@ trees.
 
 If your militia is not ready for some real adventuring, there is an easy,
 but a little bit undwarven way of exploring the caverns: Dig into the spires
-of the caverns and carve fortifications into the. That way your dwarfs can shoot
+of the caverns and carve fortifications into them. That way your dwarfs can shoot
 out, but nobody can shoot at them.
 
 ![Fortified Caves](Fortified Caves.png)
