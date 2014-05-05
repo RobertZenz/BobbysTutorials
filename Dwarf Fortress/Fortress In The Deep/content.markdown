@@ -177,6 +177,9 @@ to trade with the first caravan. When the first caravan arrives, you'll most
 likely already be somewhere at 150 - 100 alcohol, so you need these few barrels
 they have.
 
+I also made a habit out of smoothing *everything*, it does look better but
+the downside is that your fortress takes longer to take shape.
+
 
 9. Helpful Stuff
 ----------------
@@ -214,9 +217,12 @@ fortifications into the walls.
 
 The water can be drained into a big room, where it will irrigate the large area,
 making it usable for keeping animals down there. You can also farm plants and
-trees.
+trees in that big room.
 
 ![Animal Keeping](Animal Keeping.png)
+
+Note that it took me one or two migrant waves until I had my farms set up, so by
+the time your farms are ready, you should already have enough farmers.
 
 
 ### Exploring the caverns, the cowardly way
