@@ -37,7 +37,6 @@ You'll need alcohol, lots of alcohol, and three miners. I also prefer to take
  * 3 Miners:
    * Adequate Miner
    * Novice Mason
-   * Novice Engraver
    * Novice Building Designer
  * 1 Carpenter:
    * Novice Wood Cutter
@@ -70,10 +69,8 @@ You'll need alcohol, lots of alcohol, and three miners. I also prefer to take
  * 5 Pig Tail Fiber Thread
  * 5 Pig Tail Fiber Cloth
  * 5 Pig Tail Fiber Bags
- * 5 Pig Tail Fiber Ropes
+ * 2 Pig Tail Fiber Ropes
  * 2 Fungiwood Buckets
- * 2 Fungiwood Splints
- * 2 Fungiwood Crutches
  * Rest Of Points Goes Into Food
 
 ### 3.3 Animals
