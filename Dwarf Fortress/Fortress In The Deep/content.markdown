@@ -89,7 +89,7 @@ something.
 Also if you embark in a freezing or hot biome, make sure to dig a shelter
 for your dwarfs first before designating the staircase. If there are plants or
 trees into your biome, designate a stockpile on the surface or in the shelter
-and put your other dwarfs to some good use. Ge
+and put your other dwarfs to some good use.
 
 Digging straight down will also give you a good view of what to find
 in what layer.
@@ -115,7 +115,7 @@ but air or water below you.
 
 ![Hitting The Caverns Dead On](Hitting The Caverns Dead On.png)
 
-Don't worry, just build down stairs on the last level above the air,
+Don't worry, just build up stairs on the last level above the air,
 they include a floor that will seal off the breach. Then remove
 the designation of the rest of the staircase and check where you can go down
 instead.
