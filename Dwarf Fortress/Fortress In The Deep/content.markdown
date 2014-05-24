@@ -5,9 +5,9 @@ Dwarf Fortress - Fortress In The Deep
 0. About this
 -------------
 
-This tutorial is lincensed under [Creative Commons Attribution-ShareAlike](http://creativecommons.org/licenses/by-sa/4.0/).
+This tutorial is licensed under [Creative Commons Attribution-ShareAlike](http://creativecommons.org/licenses/by-sa/4.0/).
 
-The tilset you see in the screenshots is [Taffer's Tileset](http://www.bay12forums.com/smf/index.php?topic=107924.0).
+The tileset you see in the screenshots is [Taffer's Tileset](http://www.bay12forums.com/smf/index.php?topic=107924.0).
 
 
 1. How deep are we talking?
