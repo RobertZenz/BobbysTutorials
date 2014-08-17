@@ -61,17 +61,12 @@ You'll need alcohol, lots of alcohol, and three miners. I also prefer to take
  * 1 Copper Battle Axe
  * 1 Iron Anvil
  * 200+ Alcohol (Dwarven Rum/Ale/Wine/Beer)
- * 5 Plump Helmet Spawns
- * 5 Pig Tail Seeds
- * 5 Cave Wheat Seeds
- * 5 Sweet Pod Seeds
- * 5 Dimple Cup Spawn
- * 5 Pig Tail Fiber Thread
- * 5 Pig Tail Fiber Cloth
- * 5 Pig Tail Fiber Bags
- * 2 Pig Tail Fiber Ropes
- * 2 Fungiwood Buckets
- * Rest Of Points Goes Into Food
+ * 10 Plump Helmet Spawns
+ * 10 Pig Tail Seeds
+ * 10 Cave Wheat Seeds
+ * 10 Sweet Pod Seeds
+ * 10 Dimple Cup Spawn
+ * Rest Of Points Goes Into Food and Alcohol, whatever you see fit
 
 ### 3.3 Animals
 
