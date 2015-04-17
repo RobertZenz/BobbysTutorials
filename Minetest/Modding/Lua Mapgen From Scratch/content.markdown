@@ -177,12 +177,11 @@ mods, which also contains the MapManipulator object, which defines an easier
 interface for the [VoxelManip object][wiki-vm].
 
     local manipulator = MapManipulator:new()
-    local area = manipulator:get_area()
-	local data = manipulator:get_data()
 
-	-- Perform operations on the data here
-
-	manipulator:set_data(data)
+	-- Perform operations on the data here, like this:
+	manipulator:set_node(x, z, y, node)
+	
+	manipulator:set_data()
 
 It will automatically perform the necessary steps to save the data and update
 the map.
