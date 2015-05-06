@@ -1,5 +1,5 @@
 Ubuntu Touch - Synchronization With OwnCloud
-==========================================++
+============================================
 
 
 0. About this
