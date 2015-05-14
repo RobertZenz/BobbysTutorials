@@ -40,7 +40,7 @@ So instead I derived a system that works the following:
 
  * feed2imap delivers feeds to a Dovecot
  * The mailbox the feeds are delivered to is completely new/separate
- * The configuration file of feed2imap is created on every run from e-mails
+ * The configuration file of feed2imap is created on every run from an e-mail
    in the drafts directory of the mailbox
 
 
@@ -49,7 +49,7 @@ So instead I derived a system that works the following:
 
 You'll need a server with Dovecot and a new mailbox. I'd adivce against using
 an already existing one, because that might lead to problems when it comes
-to processing e-mails in the drafts directory. You'll also need [feed2imap][feed2imap]
+to processing the e-mail in the drafts directory. You'll also need [feed2imap][feed2imap]
 and bash. Why bash? Because I did not test it in another shell.
 
 
@@ -89,34 +89,41 @@ the configuration:
 	# Clear the configuration file and add the first line.
 	echo "feeds:" > $config
 	
-	# We use tac here on every e-mail in our source directory. I forgot why
-	# tac was needed, but I'm sure it was something because reading line by
-	# would otherwise not work.
+	# With every edit the e-mail in the drafts directory will change its name,
+	# and because we won't use the mailbox for anything else but feeds, we can
+	# simplye use the wildcard here.
+	# tac is used so that we go backwards through the e-mail, breaking at the
+	# first empty line, which should be separator between the e-mail text and
+	# the headers.
 	tac $source/* | while read line; do
-		if [ ! -z "$line" ]; then
-			# Get the name of the feed.
-			name=$(echo "$line" | sed "s/ <.*//g")
-			
-			# Turn it into a directory name that can be used in the URL.
-			directory=$(echo "$name" | sed "s/ /%20/g")
-			
-			# Get the URL of the feed.
-			url=$(echo "$line" | sed --regexp-extended --silent "s/.*<(.*?)>.*/\1/p")
-			
-			# Create the target directory in the mailbox if it does not exist.
-			if [ ! -d "$maildir$name" ]; then
-				mkdir "$maildir$name"
-			fi
-			
-			# Add the feed to the configuration file.
-			echo "  - name: $name" >> $config
-			echo "    url: $url" >> $config
-			echo "    target: $target$directory" >> $config
-			echo "" >> $config
+		if [ -z "$line" ]; then
+			# The first empty line should be the separator between the text and
+			# the headers, so we can stop processing now.
+			exit 0
 		fi
+		
+		# Get the name of the feed.
+		name=$(echo "$line" | sed "s/ <.*//g")
+		
+		# Turn it into a directory name that can be used in the URL.
+		directory=$(echo "$name" | sed "s/ /%20/g")
+		
+		# Get the URL of the feed.
+		url=$(echo "$line" | sed --regexp-extended --silent "s/.*<(.*?)>.*/\1/p")
+		
+		# Create the target directory in the mailbox if it does not exist.
+		if [ ! -d "$maildir$name" ]; then
+			mkdir "$maildir$name"
+		fi
+		
+		# Add the feed to the configuration file.
+		echo "  - name: $name" >> $config
+		echo "    url: $url" >> $config
+		echo "    target: $target$directory" >> $config
+		echo "" >> $config
 	done
 
-You can either have one or multiple e-mails in the format:
+All you now need is an e-mail in the drafts directory which looks like this:
 
 	feed name https://news.feeds.org/rss/
 	Another feed https://blog.somewhere.com/user/rss/
@@ -137,7 +144,7 @@ the configuration and then run feed2imap itself.
 --------
 
 Add the IMAP account to you favorite e-mail account. Whenever you want to add
-a RSS feed, you add or edit an e-mail in the drafts directory and add the feed.
+a RSS feed, you edit the e-mail in the drafts directory and add the feed.
 Then you only need to to wait until the script has run and rescan your IMAP
 account for the new directory. Done.
 
