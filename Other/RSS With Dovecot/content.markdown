@@ -33,7 +33,7 @@ good for me. There also is [feed2imap][feed2imap] which allows to deliver RSS
 feeds to an IMAP mailbox, given that I'm running my own Dovecot server, that
 seemed like a very good solution. But that would require that I edit
 a configuration file on the server for every feed that I would like to add.
-That is a dealbreaker, I'm not going to lock into a server, switch users and
+That is a dealbreaker, I'm not going to log into a server, switch users and
 then edit a file.
 
 So instead I derived a system that works the following:
@@ -47,7 +47,7 @@ So instead I derived a system that works the following:
 2. Prerequisites
 ----------------
 
-You'll need a server with Dovecot and a new mailbox. I'd adivce against using
+You'll need a server with Dovecot and a new mailbox. I'd advice against using
 an already existing one, because that might lead to problems when it comes
 to processing the e-mail in the drafts directory. You'll also need [feed2imap][feed2imap]
 and bash. Why bash? Because I did not test it in another shell.
@@ -145,7 +145,7 @@ the configuration and then run feed2imap itself.
 
 Add the IMAP account to you favorite e-mail account. Whenever you want to add
 a RSS feed, you edit the e-mail in the drafts directory and add the feed.
-Then you only need to to wait until the script has run and rescan your IMAP
+Then you only need to wait until the script has run and rescan your IMAP
 account for the new directory. Done.
 
 
